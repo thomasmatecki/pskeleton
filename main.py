@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Magical annotations define URL routing via the Flask application
 @app.route('/')
 def hello():
-    return 'Hello World!'
+    return 'Hello Foo Bar!'
 
 
 @app.errorhandler(500)
